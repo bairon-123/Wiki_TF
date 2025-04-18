@@ -11,7 +11,7 @@ class UsuarioAdmin(UserAdmin):
     ordering = ('email',)
     search_fields = ('email',)
 
-    # Campos visibles en el formulario de edición
+    # seba weno pal pik
     fieldsets = (
         (None, {'fields': ('email', 'password')}),
         (_('Permisos'), {
